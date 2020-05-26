@@ -10,15 +10,15 @@ for the best subset selection problem in linear regression, namely:
 
 as well as the necessary experimental setup to run simulations of each method on data sets, both synthetic and real, with varying characteristics.
 
-This code accompanies the work and results presented in [this report](MiguelFMC_Project_SubsetSelection.pdf).
+This code accompanies the work and results presented in [this report](MiguelFMC_Project_SubsetSelection.pdf), which are heavily inspired by the work of [Bertsimas et al.](https://projecteuclid.org/euclid.aos/1458245736) as well as that of [Hastie et al.](https://arxiv.org/abs/1707.08692).
 
 The main goal of the project was to compare the performance of the methods mentioned above across a variety of evaluation metrics for statistical performance and sparsity.
 
 ## Setup and installation
 
-Before anything else, I advise creating a new environment, perhaps using ```conda```, and then installing the package requirements.
+Before anything else, I advise creating a new environment using ```conda```, and then installing the package requirements.
 
-One option is to use the ```environment.yml``` file:
+One option is to use the ```environment.yml``` file, which directly reproduces the environment used for my experiments.
 
 ```
 conda env create -f environment.yml
@@ -33,8 +33,6 @@ conda create -n <environment_name> python=3.7
 conda activate <environment_name>
 conda install --file requirements.txt
 ```
-
-Finally, you can also use the package manager ```pip```.
  
 In order to activate the environment just run this command from the command line:
 
