@@ -24,6 +24,8 @@ One option is to use the ```environment.yml``` file:
 conda env create -f environment.yml
 ```
 
+The default enviornment name is ```subset_selection```.
+
 Another option is to create a environment and then install the requirements using the ```requirements.txt``` file.
 
 ```
@@ -32,7 +34,7 @@ conda activate <environment_name>
 conda install --file requirements.txt
 ```
 
-Finally, you can also use the package manager ```pip```
+Finally, you can also use the package manager ```pip```.
  
 In order to activate the environment just run this command from the command line:
 
@@ -50,7 +52,7 @@ More information can be found [here](https://www.gurobi.com/).
 
 The above-mentioned work includes simulations on two real datasets: the ```prostate``` dataset and the ```lymphoma``` dataset which can be accessed from the [SPLS R package](https://cran.r-project.org/web/packages/spls/index.html).
 
-In case you want to reproduce these experiments you will need to download these datasets and store them in the ```data```  directory.
+In case you want to reproduce these particular experiments you will need to download these datasets and store them in the ```data```  directory.
 
 ## Running the experiments
 
