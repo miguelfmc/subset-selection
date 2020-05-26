@@ -17,14 +17,14 @@ This code accompanies the work and results presented in [this report](MiguelFMC_
 Before anything else, I advise creating a new environment, perhaps using ```conda```, and then installing the pacakge requirements.
 
 ```
-  conda create -n <environment_name> python=3.7
-  conda install --file requirements.txt
+conda create -n <environment_name> python=3.7
+conda install --file requirements.txt
 ```
  
  In order to activate the environment just run this from the command line
 
 ```
-  conda activate <environment_name>
+conda activate <environment_name>
 ```
 
 ## Real datasets
@@ -41,5 +41,5 @@ as well as the experiment you would like to run, encoded in the variable ```MODE
 In order to run an experiment you just need to run the ```run.py``` script from the root directory of this repository, for example.
 
 ```
-  $ python src/run.py
+$ python src/run.py
 ```
