@@ -32,7 +32,7 @@ conda activate <environment_name>
 conda install --file requirements.txt
 ```
 
-Finally, you can also use the pacakge manager ```pip```
+Finally, you can also use the package manager ```pip```
  
 In order to activate the environment just run this command from the command line:
 
