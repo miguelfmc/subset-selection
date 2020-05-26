@@ -14,14 +14,24 @@ This code accompanies the work and results presented in [this report](MiguelFMC_
 
 ## Setup and installation
 
-Before anything else, I advise creating a new environment, perhaps using ```conda```, and then installing the pacakge requirements.
+Before anything else, I advise creating a new environment, perhaps using ```conda```, and then installing the package requirements.
+
+One option is to use the ```environment.yml``` file:
+
+```
+conda env create -f environment.yml
+```
+
+Another option is to create a environment and then install the requirements using the ```requirements.txt``` file.
 
 ```
 conda create -n <environment_name> python=3.7
 conda install --file requirements.txt
 ```
+
+Finally, you can also use the pacakge manager ```pip```
  
- In order to activate the environment just run this from the command line
+In order to activate the environment just run this from the command line
 
 ```
 conda activate <environment_name>
